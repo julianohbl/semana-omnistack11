@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 import { Link } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
-import LogoImg from '../../assets/logo.svg'
+import LogoImg from '../../assets/logo.svg';
 
 export default function Register() {
     return (
@@ -16,7 +16,7 @@ export default function Register() {
 
                     <Link className="back-link" to="/">
                         <FiArrowLeft size={16} color="#e02041" />
-                        Voltar
+                        Voltar para home
                 </Link>
                 </section>
 
